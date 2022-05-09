@@ -1,6 +1,9 @@
 from django.db import models
 
 # Create your models here.
+from django.db import models
+
+# Create your models here.
 
 class Menu(models.Model):
     name = models.CharField(max_length=45)
@@ -13,7 +16,7 @@ class Categorys(models.Model):
     menu = models.ForeignKey(Menu, on_delete=models.CASCADE)
 
     class Meta:
-        db_table = "categorys"
+        db_table = "categories"
 
 
 class Allergy(models.Model):

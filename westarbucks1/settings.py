@@ -33,7 +33,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'westarbucks.urls'
+ROOT_URLCONF = 'westarbucks1.urls'
 
 TEMPLATES = [
     {
